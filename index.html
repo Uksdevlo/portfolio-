@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio - Web Developer">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="intro">
+      <img src="me.png" alt="Your Photo" class="profile-img">
+      <h1>Hello, I'm Your Name</h1>
+      <p>I'm a passionate Web Developer and Designer. Welcome to my portfolio!</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="project">
+      <a href="http://127.0.0.1:5500/portfolio/project1.html"><img src="pp1.jpg" alt="Project 1"></a>
+      <div class="project-info">
+        <h3>Project 1</h3>
+        <p>A description of your first project goes here. Explain what technologies you used, what challenges you faced, etc.</p>
+      </div>
+    </div>
+    <div class="project">
+      <a href="http://127.0.0.1:5500/portfolio/project2.html#"><img src="pp2.avif" alt="Project 2"></a>
+      <div class="project-info">
+        <h3>Project 2</h3>
+        <p>Write about this project here, detailing your role and any challenges or achievements.</p>
+      </div>
+    </div>
+    <!-- Add more projects here -->
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a web developer with experience in HTML, CSS, JavaScript, and React. I love creating user-friendly, responsive websites. I'm always eager to learn new technologies and improve my skills.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you would like to work together or have any questions, feel free to reach out!</p>
+    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Name | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

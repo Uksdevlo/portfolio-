@@ -1,0 +1,150 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and font styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navigation */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #575757;
+  }
+  
+  /* Home Section */
+  #home {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .project {
+    display: inline-block;
+    width: 45%;
+    margin: 20px 2%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .project-info {
+    padding: 10px 0;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #e2e2e2;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  form {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  form button:hover {
+    background-color: #575757;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+  }
+  
